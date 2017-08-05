@@ -6,3 +6,6 @@ Working directory is where you make the edits.  Staging is just a list of files 
 
 How can you use the staging area to make sure you have one commit per logical change?
 Use git diff and git diff --staging to check what changes have been made and determine if they are logically related.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When making changes that may not ever become part of the main or master branch
