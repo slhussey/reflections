@@ -12,3 +12,6 @@ When making changes that may not ever become part of the main or master branch
 
 How do the diagrams help you visualize the branch structure?
 Shows the linear relationship of the various commits so that you know which changes (features) are in each version.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The features/changes of both branches become available in a single version.  The original 2 branches are no longer needed as the new branch is the master.
