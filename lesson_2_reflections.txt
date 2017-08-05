@@ -3,3 +3,6 @@ The hidden directory .git is created and basic meta-data is created.  This will 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Working directory is where you make the edits.  Staging is just a list of files that make a logical unit and will be committed together.  The repository is the committed changes.  Allows for multiple logical groups of files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Use git diff and git diff --staging to check what changes have been made and determine if they are logically related.
