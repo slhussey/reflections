@@ -15,3 +15,6 @@ Shows the linear relationship of the various commits so that you know which chan
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The features/changes of both branches become available in a single version.  The original 2 branches are no longer needed as the new branch is the master.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Makes assumptions that may not be true
